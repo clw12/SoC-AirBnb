@@ -1,0 +1,70 @@
+
+header {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+@media (min-width: 744px)  {
+      --explore_padding-inline: 40px;
+      --explore-nav_padding-block-start: 12px;
+  }
+
+style attribute {
+    --linaria-theme_typography-title-small22px-letter-spacing: -0.01375rem;
+    --linaria-theme_typography-title-medium26px-letter-spacing: -0.01625rem;
+    --linaria-theme_typography-title-large32px-letter-spacing: -0.04rem;
+    --linaria-theme_typography-special-display-medium_40_44-letter-spacing: -0.05rem;
+    --linaria-theme_typography-special-display-medium_48_54-letter-spacing: -0.06rem;
+    --linaria-theme_typography-special-display-medium_60_68-letter-spacing: -0.15rem;
+    --linaria-theme_typography-special-display-medium_72_74-letter-spacing: -0.18rem;
+}
+
+body {
+    
+    line-break: strict;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    color: #222222;
+    background-color: #fff;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+* {
+    text-align: center;
+    font-family: Cereal, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    
+  }
+
+  .my_div img {
+    border-radius: 40px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
