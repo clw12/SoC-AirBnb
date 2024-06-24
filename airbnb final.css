@@ -1,0 +1,36 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+    
+}
+
+
+.top-of-page {
+    width: 400px;
+    height: 180px;
+    z-index: 100;
+    text-align: center;
+    position: fixed;
+    top:0;
+}
+
+.Icon-banner {
+    background-color: #E7E7E2;
+}
+
+
+.Icon-banner p {
+    padding: 13px;
+    font-size: 0.9em;
+    color: #222;
+    
+}
+
+.Icon-banner a {
+    color : #222;
+}
+
+/* search bar */
