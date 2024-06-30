@@ -1,70 +1,132 @@
 
-header {
-  display: block;
-  unicode-bidi: isolate;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #e9e9e9;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
-
-@media (min-width: 744px)  {
-      --explore_padding-inline: 40px;
-      --explore-nav_padding-block-start: 12px;
-  }
-
-style attribute {
-    --linaria-theme_typography-title-small22px-letter-spacing: -0.01375rem;
-    --linaria-theme_typography-title-medium26px-letter-spacing: -0.01625rem;
-    --linaria-theme_typography-title-large32px-letter-spacing: -0.04rem;
-    --linaria-theme_typography-special-display-medium_40_44-letter-spacing: -0.05rem;
-    --linaria-theme_typography-special-display-medium_48_54-letter-spacing: -0.06rem;
-    --linaria-theme_typography-special-display-medium_60_68-letter-spacing: -0.15rem;
-    --linaria-theme_typography-special-display-medium_72_74-letter-spacing: -0.18rem;
-}
-
-body {
-    
-    line-break: strict;
-    font-size: 0.875rem;
-    line-height: 1.43;
-    color: #222222;
-    background-color: #fff;
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-  }
-
 * {
-    text-align: center;
-    font-family: Cereal, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
     
+}
+
+.body {
+
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    color: rgb(34, 34, 34);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
   }
 
-  .my_div img {
+.choices {
+
+    padding-top: 40px;
+    display: grid;
+    grid-template-rows: 65px;
+    grid-template-columns: 65px 65px 65px 65px 65px;
+    grid-gap: 1em;
+    list-style-type:none
+}
+
+.header {
+
+    position: fixed;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 2px 5px black;
+    
+    
+}
+
+.search-bar {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.search-bar input {
+
+    flex: 1;
+    height: 25px;
+    padding: 8px 10px 8px 30px; 
+    border: 1px solid lightgray;
     border-radius: 40px;
-    background-position: left top;
-    background-repeat: repeat;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
+    outline: none;
+    margin-left: 10px;
+}
+
+
+.main-images {
+
+    height: 310.958px;
+    width: 327.333px;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
+
+.bottom-links {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 15px;
+    display: grid;
+    padding-inline: unset;
+    list-style: none;
+    gap: 12px;
+    font-size: 14px;
+    color: rgb(64, 62, 62)
+}
+
+.Links-section{
+
+    list-style-type: none
+}
+
+
+.lineBreak {
+    
+    background-color: rgb(215, 215, 215);
+    height: 1px;
+}
+
+.terms {
+    padding-bottom: 80px;
+}
+
+.footer {
+
+    border-top: solid 1px rgba(205, 197, 197, 0.539);
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.footeroptions {
+
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.explore, .wishlists, .login {
+
+    color: #6B7280; 
+    font-size: 10px;
+}
+.option1, .option2, .option3 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 44px;
+    width: 60px;
+}
